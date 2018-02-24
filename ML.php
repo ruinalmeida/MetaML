@@ -26,8 +26,8 @@ class ML {
 		$sumXY = 0;
 		  
 		for($i = 0; $i < $n; $i++) {
-    $sumXY+=($xs[$i]*$ys[$i]);
-    $sumXX+=($xs[$i]*$xs[$i]);
+    			$sumXY+=($xs[$i]*$ys[$i]);
+    			$sumXX+=($xs[$i]*$xs[$i]);
 		}
 		//slope
 		$b = (($n * $sumXY) - ($sumX * $sumY)) / (($n * $sumXX) - ($sumX * $sumX));
